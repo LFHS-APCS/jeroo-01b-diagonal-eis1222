@@ -21,7 +21,32 @@ public class Main implements Directions {
      * Put your main Jeroo code here.
      */
     public static void runJerooCode() {
+  Jeroo Abigale = new Jeroo(0,0,EAST,5);
+  Abigale.plant();
+  Abigale.turn(LEFT);
+  Abigale.turn(LEFT);
+  Abigale.turn(LEFT);
+  Abigale.hop();
+  Abigale.turn(LEFT);
+  Abigale.hop();
+  Abigale.plant();
+    Abigale.turn(LEFT);
+  Abigale.turn(LEFT);
+  Abigale.turn(LEFT);
+  Abigale.hop();
+  Abigale.turn(LEFT);
+  Abigale.hop();
+  Abigale.plant(); 
+  Abigale.turn(LEFT);
+  Abigale.turn(LEFT);
+  Abigale.turn(LEFT);
+  Abigale.hop();
+  Abigale.turn(LEFT);
+  Abigale.hop();
+  Abigale.plant(); 
+  Abigale.hop(); 
+}
      
-    }
+    
 
 }
